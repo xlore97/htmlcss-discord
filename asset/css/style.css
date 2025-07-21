@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .headerbg {
@@ -60,10 +61,60 @@
 
 .jumbo-container {
     width: 45%;
-    height: 400px;
-    background-color: #EF82ED;
-    border: 2px dashed black;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
 }
+
+.jumbo-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbo-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.jumbo-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.download-button,
+.browser-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-button {
+    background-color: white;
+    color: #23272A;
+}
+
+.browser-button {
+    background-color: #23272A;
+    color: white;
+}
+
+.download-button:hover {
+    background-color: #bebebe;
+}
+
+.browser-button:hover {
+    background-color: #3b3f42;
+}
+
 
 /* Sezioni rosa, blu e verdi */
 
