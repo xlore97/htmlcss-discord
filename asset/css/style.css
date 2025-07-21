@@ -13,39 +13,48 @@
 }
 
 .header-container {
-    background-color: #DAA51E;
-    border: 2px dashed black;
+    width: 80%;
+    max-width: 1200px;
     display: flex;
-    width: 70%;
     align-items: center;
-    padding: 10px 20px;
     justify-content: space-between;
-    max-width: 1000px;
 }
 
-.nav-links-header {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 2px dashed black;
-}
-
-.nav-links-header a {
-    text-decoration: none;
-    color: black;
+.logo img {
+    height: 40px;
 }
 
 .nav-links-header-ul {
-    list-style-type: none;
-    width: 30%;
-    font-size: 20px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 30px;
 }
+
+.nav-links-header-ul li {
+    list-style: none;
+}
+
+.nav-links-header-ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #bebebe;
+    transform: scale(1.05);
+}
+
 
 /* Jumbo */
 
@@ -109,10 +118,12 @@
 
 .download-button:hover {
     background-color: #bebebe;
+    transform: scale(1.05);
 }
 
 .browser-button:hover {
     background-color: #3b3f42;
+    transform: scale(1.05);
 }
 
 
